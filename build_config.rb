@@ -11,4 +11,5 @@ MRuby::Build.new do |conf|
 
   conf.gembox 'full-core'
   conf.gem File.dirname(__FILE__)
+  conf.gem :github => 'mattn/mruby-onig-regexp'
 end
